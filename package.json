@@ -4,8 +4,8 @@
   "description": "",
   "homepage": "https://kirillprogrammertop1gg.github.io/hw-js-25/",
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html",
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /hw-js-25/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
@@ -15,7 +15,9 @@
   "dependencies": {
     "chart.js": "^4.4.2",
     "gh-pages": "^6.1.1",
-    "pnotify": "^5.2.0"
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "pnotify": "^5.2.0",
+    "posthtml-include": "^2.0.1"
   },
   "devDependencies": {
     "parcel": "^2.12.0"
