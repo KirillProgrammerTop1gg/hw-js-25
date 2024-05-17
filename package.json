@@ -15,9 +15,7 @@
   "dependencies": {
     "chart.js": "^4.4.2",
     "gh-pages": "^6.1.1",
-    "pnotify": "^5.2.0",
-    "@pnotify/core": "*",
-    "@pnotify/mobile": "*"
+    "pnotify": "^5.2.0"
   },
   "devDependencies": {
     "parcel": "^2.12.0"
